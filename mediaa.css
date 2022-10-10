@@ -1,0 +1,43 @@
+@media screen and (max-width: 768px) {
+    main {
+        overflow-x: hidden;
+    }
+    
+    .hero-section-one {
+        padding: 40px;
+    }
+
+    .article-text {
+        width:24em;
+    }
+
+    h2 {
+        font-size: 50px;
+        margin-top: 4.5em;
+        margin-top: 6em;
+    }
+
+    .hero-section-two {
+        padding: 40px;
+    }
+
+    .hero-section-three {
+        padding: 40px;
+    }
+
+    .hero-section-four {
+        padding: 40px;
+    }
+
+    .hero-section-five {
+        padding: 40px;
+    }
+
+    .footer {
+        padding-left: 0px;
+        padding: 40px;
+        height: 10vh;
+    }
+    
+
+}
