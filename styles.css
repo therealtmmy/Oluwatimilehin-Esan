@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@800&display=swap');
+
+* {
+   text-decoration: none;
+   margin: 0%;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.hero {
+    background: url(/images/Capture6.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+.hero-content {
+    display: flex;
+    gap: 40px;
+}
+
+.MyImg {
+    border-bottom: 1px solid white;
+    border-radius: 50%;
+    margin-top: 80px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    font-size: 17px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.section-text {
+    width:35em;
+}
+
+h1 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 60px;
+    color: white;
+    line-height: 60px;
+    margin-top: 300px;
+    color: aqua;
+    margin-bottom: 20px;
+}
+
+h1 + p {
+    font-size: 17px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+#contact-id {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 10px;
+    padding-top: 20px;
+}
+
+#contact-id:hover {
+    color: rgb(0, 255, 255);
+}
+
+.MyImg {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}
+
+/* THE SECOND HERO SECTION */
+
+.hero-section-two {
+    background: url(/images/TheCounterAppp.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding-left: 60px;
+    padding-top: 40px;
+    padding-bottom: 1em;
+}
+
+h2 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 60px;
+    color: white;
+    margin-bottom: 0%;
+    line-height: 60px;
+    margin-top: 4.5em;
+    color: aqua;
+    margin-top: 6em;
+    margin-bottom: 20px;
+}
+
+h2 + p, p {
+    font-size: 17px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* THE THIRD HERO SECTION */
+
+.hero-section-three {
+    background: url(/images/young-fitness-man-studio_7502-50078.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+/* THE FOUR HERO SECTION */
+
+.hero-section-four {
+    background: url(/images/Vacation\ La\ Primee.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+.hero-section-five {
+    background: url(/images/MCF.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding-left: 60px;
+    padding-top: 40px;
+    padding-bottom: 1em;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    border: 1px solid aqua;
+    margin-left: 20px;
+    }
+
+/* FOOTER */
+
+.footer {
+    /* background: url(/images/Capture.JPG);
+    background-size: cover; */
+    background-color: rgb(0, 0, 0);
+    height: 20vh;
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+}
+
