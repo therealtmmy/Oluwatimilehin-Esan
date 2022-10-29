@@ -1,0 +1,248 @@
+@media screen and (max-width: 600px) {
+main {
+        overflow-x: hidden;
+    }
+
+    .hero {
+        background: url(/images/Capture6.jpg);
+        background-size: cover;
+        padding-left: 0px;
+        padding: 40px;
+        height: 100%;
+    }
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    
+    .MyImg {
+        border-radius: 0%;
+        margin-top: -60px;
+        width: 100%;
+        
+    }
+
+    .section-text {
+        width:19em;
+    }
+    
+
+    h1 {
+        font-size: 36px;
+        line-height: 43px;
+        margin-top: 50px;
+        color: aqua;
+        margin-bottom: 20px;
+    }
+
+    .hero-section-two {
+        padding: 40px;
+    }
+
+    h2 + p, p {
+        font-size: 17px;
+        color: white;
+        margin-bottom: 15px;
+    }
+
+    .hero-section-three {
+        padding: 40px;
+    }
+
+    .hero-section-four {
+        padding: 40px;
+    }
+
+    .hero-section-five {
+        padding: 40px;
+    }
+
+    .footer {
+        height: 20vh;
+        padding: 40px;
+        padding-top: 40px;
+    }
+    
+  /* THE SECOND HERO SECTION */
+
+  .hero-section-two {
+    background: url(/images/TheCounterAppp.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 0px;
+        padding: 40px;
+        height: 100vh;
+}
+
+h2 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 36px;
+    line-height: 60px;
+    color: aqua;
+    margin-top: 300px;
+    margin-bottom: 20px;
+}
+
+/* THE THIRD HERO SECTION */
+
+.hero-section-three {
+    background: url(/images/young-fitness-man-studio_7502-50078.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 0px;
+        padding: 40px;
+        height: 100vh;
+}
+
+/* THE FOUR HERO SECTION */
+
+.hero-section-four {
+    background: url(/images/Vacation\ La\ Primee.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-left: 0px;
+    padding: 40px;
+}
+
+.hero-section-five {
+    background: url(/images/MCF.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-left: 0px;
+    padding: 40px;
+}
+
+}
+
+@media screen and (max-width: 320px) {
+    main {
+            overflow-x: hidden;
+        }
+    
+        .hero {
+            background: url(/images/Capture6.jpg);
+            background-size: cover;
+            padding-left: 0px;
+            padding: 30px;
+            height: 100%;
+        }
+    
+        .hero-content {
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+        }
+        
+        .MyImg {
+            border-radius: 0%;
+            margin-top: -60px;
+            width: 100%;
+            
+        }
+    
+        .section-text {
+            width:15em;
+        }
+        
+    
+        h1 {
+            font-size: 30px;
+            line-height: 40px;
+            margin-top: 50px;
+            color: aqua;
+            margin-bottom: 20px;
+        }
+    
+        .hero-section-two {
+            padding: 30px;
+        }
+    
+        h2 + p, p {
+            font-size: 17px;
+            color: white;
+            margin-bottom: 15px;
+        }
+    
+        .hero-section-three {
+            padding: 40px;
+        }
+    
+        .hero-section-four {
+            padding: 40px;
+        }
+    
+        .hero-section-five {
+            padding: 40px;
+        }
+    
+        .footer {
+            height: 20vh;
+            padding: 40px;
+            padding-top: 40px;
+        }
+        
+      /* THE SECOND HERO SECTION */
+    
+      .hero-section-two {
+        background: url(/images/TheCounterAppp.jpg);
+        background-size: cover;
+        background-position: center;
+        padding-left: 0px;
+            padding: 40px;
+            height: 100vh;
+    }
+    
+    h2 {
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 36px;
+        line-height: 40px;
+        color: aqua;
+        margin-top: 150px;
+        margin-bottom: 20px;
+    }
+    
+    /* THE THIRD HERO SECTION */
+    
+    .hero-section-three {
+        background: url(/images/young-fitness-man-studio_7502-50078.jpg);
+        background-size: cover;
+        background-position: center;
+        padding-left: 0px;
+            padding: 40px;
+            height: 100vh;
+    }
+    
+    /* THE FOUR HERO SECTION */
+    
+    .hero-section-four {
+        background: url(/images/Vacation\ La\ Primee.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        padding-left: 0px;
+        padding: 40px;
+    }
+    
+    .hero-section-five {
+        background: url(/images/MCF.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        padding-left: 0px;
+        padding: 40px;
+    }
+    
+    }
+    
+    @media screen and (max-width: 375px) {
+       
+            .section-text {
+                width:100%;
+            }
+            
+        }
+        
